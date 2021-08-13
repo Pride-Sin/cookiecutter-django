@@ -43,12 +43,9 @@ Features
 * For Django 3.1
 * Works with Python 3.9
 * Renders Django projects with 100% starting test coverage
-* Twitter Bootstrap_ v4 (`maintained Foundation fork`_ also available)
 * 12-Factor_ based settings via django-environ_
 * Secure by default. We believe in SSL.
 * Optimized development and production settings
-* Registration via django-allauth_
-* Comes with custom user model ready to go
 * Optional basic ASGI setup for Websockets
 * Optional custom static build using Gulp and livereload
 * Send emails via Anymail_ (using Mailgun_ by default or Amazon SES if AWS is selected cloud provider, but switchable)
@@ -58,7 +55,6 @@ Features
 * Instructions for deploying to PythonAnywhere_
 * Run tests with unittest or pytest
 * Customizable PostgreSQL version
-* Default integration with pre-commit_ for identifying simple issues before submission to code review
 
 .. _`maintained Foundation fork`: https://github.com/Parbhat/cookiecutter-django-foundation
 
@@ -73,10 +69,8 @@ Optional Integrations
 * Integration with MailHog_ for local email testing
 * Integration with Sentry_ for error logging
 
-.. _Bootstrap: https://github.com/twbs/bootstrap
 .. _django-environ: https://github.com/joke2k/django-environ
 .. _12-Factor: http://12factor.net/
-.. _django-allauth: https://github.com/pennersr/django-allauth
 .. _django-avatar: https://github.com/grantmcconnaughey/django-avatar
 .. _Procfile: https://devcenter.heroku.com/articles/procfile
 .. _Mailgun: http://www.mailgun.com/
@@ -90,7 +84,6 @@ Optional Integrations
 .. _PythonAnywhere: https://www.pythonanywhere.com/
 .. _Traefik: https://traefik.io/
 .. _LetsEncrypt: https://letsencrypt.org/
-.. _pre-commit: https://github.com/pre-commit/pre-commit
 
 Constraints
 -----------
